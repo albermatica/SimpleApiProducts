@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApiProducts", "SimpleApiProducts\SimpleApiProducts.csproj", "{EF482FA5-0BA6-4501-9775-0E0FB2A8403B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF482FA5-0BA6-4501-9775-0E0FB2A8403B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF482FA5-0BA6-4501-9775-0E0FB2A8403B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF482FA5-0BA6-4501-9775-0E0FB2A8403B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF482FA5-0BA6-4501-9775-0E0FB2A8403B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
