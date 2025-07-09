@@ -1,4 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using SimpleApiProducts;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Agrega el servicio de base de datos usando tu ApplicationDbContext
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 
